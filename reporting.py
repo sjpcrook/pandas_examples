@@ -16,7 +16,3 @@ import sweetviz as sv
 # spotifydf = pd.read_csv("spotify_songs.csv")
 # spotifyreport = sv.analyze(spotifydf)
 # spotifyreport.show_html()
-
-planetdf = pd.read_excel("planet_facts.xlsx")
-planetreport = sv.analyze(planetdf)
-planetreport.show_html()
